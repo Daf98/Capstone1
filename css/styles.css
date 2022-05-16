@@ -13,7 +13,7 @@
 .black,
 ul,
 a,
-a:link, {
+a:link {
   color: #272a31;
 }
 
