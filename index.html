@@ -1,13 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7007e497a1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
+
 <body>
-<script src="./index.js"></script>
+    <!--     Toggable menu     -->
+    <nav class="nav-bar">
+        <a href="#" class="hamburger-menu">
+            <img class="logo" src="./css/Images/logo.png" alt="Logo">
+            <i class="hamburger-icon fa-solid fa-bars"></i>
+
+
+        </a>
+        <ul class="opened-menu to-the-right black">
+            <li class="close-icon"><i class="menu-item fa-solid fa-xmark"></i></li>
+            <li class="item-border"><a href="#home" class="menu-item">Home</a></li>
+            <li class="item-border"><a href="#about" class="menu-item">About</a></li>
+            <li class="item-border"><a href="#program" class="menu-item">Program</a></li>
+            <li class="item-border"><a href="#join" class="menu-item">Join</a></li>
+            <li class="item-border"><a href="#sponsor" class="menu-item">Sponsor</a></li>
+            <li class="item-border"><a href="#news" class="menu-item">News</a></li>
+            <li class="item-border"><a href="#cc-unit" class="menu-item">CC Unit</a></li>
+        </ul>
+    </nav>
+    <!-- Homepage  -->
+<div class="main-container">
+    <header>
+        <p class="red">"Welcome, typologists!"</p>
+        <h1 class="first-heading red">SOCIONICS BOOTCAMP</h1>
+        <p class="about-socio">A joyful presentation of the theory of Socionics which was founded by Aushra Augusta, based on the works of Carl Gustav Jung.</p>
+        <h2 class="black birthdate">1998-04-28(TUE) ~ 1:43AM</h2>
+        <p class="black">@ Kesswil, Thurgau, Switzerland</p>
+    </header>
+    <!-- About -->
+    <section class="about" id="program">
+        <h1>Main Program</h1>
+        <section class="cards">
+            <div class="card">
+                <img src="./css/Icons/program_icon_01.png" alt="">
+                <h3 class="red">Lectures</h3>
+                <p class="card-desc">Get to learn from sociology experts from around the world.</p>
+            </div>
+            <div class="card">
+                <img src="./css/Icons/program_icon_02.png" alt="">
+                <h3 class="red">Examples</h3>
+                <p class="card-desc">Observe various examples of different types, both in photography and irl.</p>
+            </div>
+            <div class="card">
+                <img src="./css/Icons/program_icon_03.png" alt="">
+                <h3 class="red">Q&A Section</h3>
+                <p class="card-desc">Ask any questions you have in mind.</p>
+            </div>
+            <div class="card">
+                <img src="./css/Icons/program_icon_04.png" alt="">
+                <h3 class="red">Typing</h3>
+                <p class="card-desc">Get a professional typing by Dr. G himself!</p>
+            </div>
+            <div class="card"><img src="./css/Icons/program_icon_05.png" alt="">
+                <h4 class="red">Patreon</h4>
+                <p class="card-desc">Help our project out with a simple donation.</p>
+            </div>
+        </section>
+        <a class="project-link" href="http://wikisocion.net/en/index.php?title=Wikisocion_home">SEE THE WHOLE
+            BOOTCAMP</a>
+    </section>
+</div>
+    <script src="./index.js"></script>
 </body>
+
 </html>

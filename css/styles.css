@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
   box-sizing: border-box;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
-.black {
+.black,
+ul,
+a,
+a:link, {
   color: #272a31;
 }
 
@@ -19,4 +23,123 @@
 
 .gray {
   color: #d3d3d3;
+}
+
+/* Nav bar */
+.logo {
+  height: 70px;
+}
+
+.nav-bar,
+ul {
+  padding: 1rem;
+}
+
+.hamburger-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-icon {
+  display: none;
+  align-self: flex-end;
+}
+
+.opened-menu {
+  background-color: #d3d3d3;
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  inset: 0 0 0 0;
+  z-index: 99;
+  opacity: 0.89;
+}
+
+.open-menu {
+  transform: translateY(0);
+}
+
+.item-border {
+  border-bottom: 2px solid #6f6c6b;
+  margin-right: 10%;
+  line-height: 70px;
+}
+
+.to-the-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.blur {
+  filter: blur(6px);
+}
+
+/* Homepage */
+
+#home {
+  font-size: 20px;
+}
+
+.first-heading {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./Images/Background1.jpg');
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.about-socio {
+  background-color: #fafafa;
+  border: 1px solid #272a31;
+  padding: 1rem;
+  margin: 1rem;
+  font-weight: 700;
+}
+
+.birthdate {
+  font-weight: 900;
+}
+
+/* About page */
+.about {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./Images/Background2.jpg');
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #272a31;
+  background-color: #272a31;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.card-desc {
+  padding: 0 1rem;
+}
+
+.project-link {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
 }
