@@ -232,7 +232,11 @@ ul {
   padding: 2rem;
   gap: 1rem;
 }
-
+.desktop-about {
+  display:flex;
+  flex-direction: column;
+  gap:2rem;
+}
 .about-image {
   width: 250px;
 }
@@ -390,5 +394,43 @@ width: 100%;
     text-decoration: underline;
   }
 
+  .speakers {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  .speaker-img {
+    grid-row: 1 / span 5;
+  }
+  .speaker-detail {
+    grid-column: 2;
+    grid-row: 3/ span 1;
+  }
+
+.featured-button {
+  display:none;
+}
+
+.copyright-logo {
+  width:25%;
+}
+
+/* About page */
+.first-heading-about {
+  font-family: 'Lato', sans-serif;
+}
+.desktop-about {
+  flex-direction:row;
+  gap:3rem;
+}
+.about-partners-about {
+  display:none;
+}
+.copyright-about {
+  background-color:#272a31;
+  color:white;
+  gap: 3rem;
+}
 
 }
