@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 @font-face {
   font-family: 'Cocogoose';
   src: url('./Font/cocogoose_trial.woff');
@@ -98,10 +99,10 @@ ul {
 }
 
 .first-heading {
-  font-family:'Cocogoose';
+  font-family: 'Cocogoose';
   font-weight: 900;
   font-size: 50px;
-  mix-blend-mode:multiply;
+  mix-blend-mode: multiply;
 }
 
 .header {
@@ -232,17 +233,28 @@ ul {
   padding: 2rem;
   gap: 1rem;
 }
+
 .desktop-about {
-  display:flex;
+  display: flex;
   flex-direction: column;
-  gap:2rem;
+  gap: 2rem;
 }
+
 .about-image {
   width: 250px;
 }
 
 .about-img {
   height: 250px;
+}
+
+.about-partners-about {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .about-partners {
@@ -252,6 +264,7 @@ ul {
   align-items: center;
   gap: 1rem;
   padding: 1rem;
+  display: none;
 }
 
 .partner-logos {
@@ -260,6 +273,14 @@ ul {
 }
 
 .copyright {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.copyright-about {
   display: flex;
   padding: 2rem;
   align-items: center;
@@ -286,7 +307,7 @@ ul {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  gap:1rem;
+  gap: 1rem;
 }
 
 .speaker-img {
@@ -310,10 +331,10 @@ ul {
 }
 
 .featured-button {
-background-color:white;
-border-color:#272a31;
-padding: 0.5rem;
-width: 100%;
+  background-color: white;
+  border-color: #272a31;
+  padding: 0.5rem;
+  width: 100%;
 }
 
 /* Desktop version */
@@ -400,37 +421,46 @@ width: 100%;
     grid-template-rows: auto auto auto;
   }
 
+  .about-partners,
+  .copyright {
+    display: flex;
+  }
+
   .speaker-img {
     grid-row: 1 / span 5;
   }
+
   .speaker-detail {
     grid-column: 2;
     grid-row: 3/ span 1;
   }
 
-.featured-button {
-  display:none;
-}
+  .featured-button {
+    display: none;
+  }
 
-.copyright-logo {
-  width:25%;
-}
+  .copyright-logo {
+    width: 25%;
+  }
 
-/* About page */
-.first-heading-about {
-  font-family: 'Lato', sans-serif;
-}
-.desktop-about {
-  flex-direction:row;
-  gap:3rem;
-}
-.about-partners-about {
-  display:none;
-}
-.copyright-about {
-  background-color:#272a31;
-  color:white;
-  gap: 3rem;
-}
+  /* About page */
+  .first-heading-about {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .desktop-about {
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .about-partners-about {
+    display: none;
+  }
+
+  .copyright-about {
+    background-color: #272a31;
+    color: white;
+    gap: 3rem;
+  }
 
 }
