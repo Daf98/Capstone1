@@ -12,6 +12,13 @@
 
 <body>
     <!--     Toggable menu     -->
+    <ul class="desktop-bar gray">
+        <li><i class="fa-brands fa-facebook-f"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li>English</li>
+        <li>My Page</li>
+        <li>Log out</li>
+    </ul>
     <nav class="nav-bar">
         <a href="#" class="hamburger-menu">
             <img class="logo" src="./css/Images/logo.png" alt="Logo">
@@ -19,6 +26,18 @@
 
 
         </a>
+        <div class="desktop-menu">
+            <img class="logo" src="./css/Images/logo.png" alt="Logo">
+            <ul class="desktop-ul">
+                <li><a class="desk-hover" href="#home">Home</a></li>
+                <li><a class="desk-hover" href="./about.html">About</a></li>
+                <li><a class="desk-hover" href="#program">Program</a></li>
+                <li><a class="desk-hover" href="#join">Join</a></li>
+                <li><a class="desk-hover" href="#sponsor">Sponsor</a></li>
+                <li><a class="desk-hover" href="#news">News</a></li>
+                <li><a class="desk-hover cc-unit" href="#cc-unit">CC Unit</a></li>
+            </ul>
+        </div>
         <ul class="opened-menu to-the-right black">
             <li class="close-icon"><i class="menu-item fa-solid fa-xmark"></i></li>
             <li class="item-border"><a href="#home" class="menu-item">Home</a></li>
@@ -29,6 +48,7 @@
             <li class="item-border"><a href="#news" class="menu-item">News</a></li>
             <li class="item-border"><a href="#cc-unit" class="menu-item">CC Unit</a></li>
         </ul>
+
     </nav>
     <!-- Homepage  -->
     <div class="main-container">
@@ -40,9 +60,12 @@
             <h2 class="black birthdate">1998-04-28(TUE) ~ 1:43AM</h2>
             <p class="black">@ Kesswil, Thurgau, Switzerland</p>
         </header>
-        <!-- About -->
+        <!-- Main program -->
         <section class="cards0" id="program">
-            <h1>Main Program</h1>
+            <div>
+                <h1>Main Program</h1>
+                <div class="red-line"></div>
+            </div>
             <section class="cards">
                 <div class="card">
                     <img src="./css/Icons/program_icon_01.png" alt="">
@@ -69,8 +92,24 @@
                     <p class="card-desc">Help our project out with a simple donation.</p>
                 </div>
             </section>
+            <a class="desktop-button" href="http://wikisocion.net/en/index.php?title=Wikisocion_home">Join our
+                Socionics program</a>
             <button class="project-button" href="http://wikisocion.net/en/index.php?title=Wikisocion_home">Join our
                 Socionics program</button>
+        </section>
+        <!-- Featured speakers -->
+        <section class="featured-speakers">
+            <div>
+                <h1>Featured Speakers</h1>
+                <div class="red-line"></div>
+            </div>
+            <div class="speaker">
+                <img class="speaker-img" src="./css/Featured/Gulenko.png" alt="Viktor Gulenko">
+                <h2 class="speaker-name">Viktor Gulenko</h2>
+                <h3 class="speaker-desc red">Founder of the School of Humanitarian Socionics.</h3>
+                <p class="speaker-detail">Gulenko considers himself an analytical psychologist and a disciple of Carl Gustav Jung.</p>
+            </div>
+            <button class="featured-button"> MORE <i class="fa-solid fa-angle-down red"></i></button>
         </section>
     </div>
     <script src="./index.js"></script>

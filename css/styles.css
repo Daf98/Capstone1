@@ -17,6 +17,10 @@ a:link {
   color: #272a31;
 }
 
+.cc-unit:link {
+  color: #ec5242;
+}
+
 .red {
   color: #ec5242;
 }
@@ -26,6 +30,14 @@ a:link {
 }
 
 /* Nav bar */
+.desktop-bar {
+  display: none;
+}
+
+.desktop-menu {
+  display: none;
+}
+
 .logo {
   height: 70px;
 }
@@ -82,7 +94,6 @@ ul {
 }
 
 .first-heading {
-  align-self: center;
   font-weight: 900;
   font-size: 50px;
 }
@@ -97,6 +108,7 @@ ul {
 }
 
 .first-par {
+  font-size: 25px;
   align-self: flex-start;
 }
 
@@ -104,7 +116,6 @@ ul {
   background-color: #fafafa;
   border: 1px solid #272a31;
   padding: 1rem;
-  margin: 1rem;
   font-weight: 700;
 }
 
@@ -113,6 +124,14 @@ ul {
 }
 
 /* Cards page */
+.red-line {
+  display: block;
+  width: 33%;
+  height: 2px;
+  background: #ec5242;
+  margin: 1rem auto;
+}
+
 .cards0 {
   padding: 1rem;
   display: flex;
@@ -139,6 +158,10 @@ ul {
   gap: 1rem;
 }
 
+.card:hover {
+  border: 1px solid white;
+}
+
 .card-desc {
   padding: 0 1rem;
 }
@@ -148,6 +171,10 @@ ul {
   color: white;
   font-size: 20px;
   padding: 1.5rem;
+}
+
+.desktop-button {
+  display: none;
 }
 
 
@@ -233,13 +260,129 @@ ul {
   width: 50%;
 }
 
+/* Featured Speakers */
+
+.featured-speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.speaker {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap:1rem;
+}
+
+.speaker-img {
+  height: 150px;
+  grid-column: 1/2;
+  grid-row: 1 / span 2;
+}
+
+.speaker-name {
+  grid-column: 2/span 1;
+}
+
+.speaker-desc {
+  grid-column: 2 / span 1;
+  grid-row: 2 / 3;
+}
+
+.speaker-detail {
+  grid-column: 1 / span 2;
+  grid-row: 4/ span 2;
+}
+
+.featured-button {
+background-color:white;
+border-color:#272a31;
+padding: 0.5rem;
+width: 100%;
+}
+
 /* Desktop version */
 
 @media only screen and (min-width: 768px) {
-  .copyright {
-    color:green;
+
+  /* Nav bar */
+  .desktop-bar {
+    display: flex;
+    background-color: #272a31;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 1% 2rem;
   }
 
+  .hamburger-menu {
+    display: none;
+  }
+
+  .logo {
+    align-self: flex-start;
+  }
+
+  .desktop-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .desktop-ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .desk-hover:hover {
+    color: #ec5242;
+  }
+
+  .cc-unit {
+    color: #ec5242;
+    border: 3px solid #ec5242;
+    padding: 0.5rem 1rem;
+  }
+
+  /* Homepage */
+  .header {
+    height: 700px;
+    align-items: flex-start;
+    background-image: url('./Images/Desktop1.png');
+    gap: 3rem;
+  }
+
+  .first-par {
+    font-size: 50px;
+  }
+
+  .first-heading {
+    font-size: 100px;
+  }
+
+  /* Main program */
+  .cards0 {
+    padding: 2rem;
+    gap: 3rem;
+  }
+
+  .cards {
+    flex-direction: row;
+  }
+
+  .project-button {
+    display: none;
+  }
+
+  .desktop-button {
+    display: block;
+    color: white;
+    text-decoration: underline;
+  }
 
 
 }

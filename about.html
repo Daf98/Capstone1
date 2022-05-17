@@ -12,6 +12,13 @@
 
 <body>
     <!--     Toggable menu     -->
+    <ul class="desktop-bar gray">
+        <li><i class="fa-brands fa-facebook-f"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li>English</li>
+        <li>My Page</li>
+        <li>Log out</li>
+    </ul>
     <nav class="nav-bar">
         <a href="#" class="hamburger-menu">
             <img class="logo" src="./css/Images/logo.png" alt="Logo">
@@ -19,6 +26,18 @@
 
 
         </a>
+        <div class="desktop-menu">
+            <img class="logo" src="./css/Images/logo.png" alt="Logo">
+            <ul class="desktop-ul">
+                <li><a a class="desk-hover" href="./index.html">Home</a></li>
+                <li><a a class="desk-hover" href="./about.html">About</a></li>
+                <li><a a class="desk-hover" href="#program">Program</a></li>
+                <li><a a class="desk-hover" href="#join">Join</a></li>
+                <li><a a class="desk-hover" href="#sponsor">Sponsor</a></li>
+                <li><a a class="desk-hover" href="#news">News</a></li>
+                <li><a a class="desk-hover" href="#cc-unit">CC Unit</a></li>
+            </ul>
+        </div>
         <ul class="opened-menu to-the-right black">
             <li class="close-icon"><i class="menu-item fa-solid fa-xmark"></i></li>
             <li class="item-border"><a href="./index.html" class="menu-item">Home</a></li>
@@ -29,11 +48,12 @@
             <li class="item-border"><a href="#news" class="menu-item">News</a></li>
             <li class="item-border"><a href="#cc-unit" class="menu-item">CC Unit</a></li>
         </ul>
+
     </nav>
     <!-- About  -->
     <div class="main-container">
         <header class="about-header">
-            <p class="red">"Welcome, typologists!"</p>
+            <p class="red first-par">"Welcome, typologists!"</p>
             <h1 class="first-heading red">SOCIONICS BOOTCAMP</h1>
             <p class="about-socio-bigger">Socionics is a theory of interpersonal interaction based on patterns of
                 information selection and processing. Socionics has 16 types and 16 kinds of intertype relations.
@@ -56,13 +76,19 @@
         </section>
         <hr>
         <section class="past-bootcamps">
-            <h1>See the past Socionics Bootcamps</h1>
+            <div>
+                <h1>See the past Socionics Bootcamps</h1>
+                <div class="red-line"></div>
+            </div>
             <p>Take a look at the last two Socionics conventions which took place in Kyiv and Warsaw.</p>
             <img class="about-img" src="./css/Images/convention1.png" alt="Kyiv convention">
             <img class="about-img" src="./css/Images/convention2.png" alt="Warsaw convention">
         </section>
         <section class="about-partners gray">
-            <h1>Partners</h1>
+            <div>
+                <h1>Partners</h1>
+                <div class="red-line"></div>
+            </div>
             <div class="partner-logos">
                 <i class="fa-brands fa-google"></i>
                 <i class="fa-brands fa-airbnb"></i>
