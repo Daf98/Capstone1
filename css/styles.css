@@ -82,17 +82,22 @@ ul {
 }
 
 .first-heading {
+  align-self: center;
   font-weight: 900;
   font-size: 50px;
 }
 
-header {
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('./Images/Background1.jpg');
+  background-image: url('./Images/Background1.png');
   gap: 2rem;
   padding: 3rem;
+}
+
+.first-par {
+  align-self: flex-start;
 }
 
 .about-socio {
@@ -107,8 +112,8 @@ header {
   font-weight: 900;
 }
 
-/* About page */
-.about {
+/* Cards page */
+.cards0 {
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -138,8 +143,103 @@ header {
   padding: 0 1rem;
 }
 
-.project-link {
+.project-button {
+  background-color: #ec5242;
   color: white;
   font-size: 20px;
+  padding: 1.5rem;
+}
+
+
+/* About page */
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./Images/About1.png');
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.about-socio-bigger {
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  padding: 1rem;
+  margin: 1rem;
+  font-weight: 400;
+}
+
+.about-mail {
+  color: black;
+  font-weight: 700;
   text-decoration: underline;
+}
+
+.about-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.about-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(255, 250, 250);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.past-bootcamps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.about-image {
+  width: 250px;
+}
+
+.about-img {
+  height: 250px;
+}
+
+.about-partners {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.partner-logos {
+  display: flex;
+  gap: 3rem;
+}
+
+.copyright {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright-logo {
+  width: 50%;
+}
+
+/* Desktop version */
+
+@media only screen and (min-width: 768px) {
+  .copyright {
+    color:green;
+  }
+
+
+
 }
