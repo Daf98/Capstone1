@@ -2,8 +2,11 @@
 
 # Project Name
 
-> Capstone #1
+> Socionics Convention
 
+# Project Description
+
+> An invitation to a convention to learn about and discuss Socionics :smile:
 
 ## Built With
 

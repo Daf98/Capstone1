@@ -104,6 +104,6 @@ for(let i=0; i<speakers.length; i += 1) {
   <img class="speaker-img" src="${speakers[i].image}" alt="Viktor Gulenko">
   <h2 class="speaker-name">${speakers[i].name}</h2>
   <p class="speaker-desc red">${speakers[i].description}</p>
-  <h6 class="speaker-detail">${speakers[i].detail}</h6>
+  <h5 class="speaker-detail">${speakers[i].detail}</h5>
   `;
 }

@@ -103,6 +103,9 @@ ul {
 }
 
 .first-heading {
+  background: url('./Font/h1-background.jpg');
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
   font-family: 'Cocogoose';
   font-weight: 900;
   font-size: 50px;
@@ -308,8 +311,8 @@ ul {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
-  justify-content: center;
-  padding: 1rem;
+  justify-content: start;
+  padding: 2rem;
   gap: 1rem;
 }
 
@@ -325,12 +328,13 @@ ul {
 }
 
 .speaker-desc {
+  font-weight: 700;
   grid-column: 2 / span 1;
   grid-row: 2 / 3;
 }
 
 .speaker-detail {
-  grid-column: 1 / span 2;
+  grid-column: 2 / span 2;
   grid-row: 4/ span 2;
 }
 
