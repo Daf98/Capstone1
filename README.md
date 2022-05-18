@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Socionics Convention
 
-> Socionics Convention
-
-# Project Description
+# Description
 
 > This project is about a convention where people interested in Socionics can learn about it, see real-life scenarios and examples, and meet people. Maybe you'll even meet your dual! :smile:
 
