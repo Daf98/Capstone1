@@ -316,7 +316,7 @@ ul {
   grid-template-rows: auto auto auto;
   justify-content: start;
   padding: 2rem;
-  gap: 0.5rem 1rem;
+  gap: 0.3rem 1rem;
 }
 
 .speaker-img {
@@ -324,8 +324,6 @@ ul {
   width:100px;
   grid-column: 1/2;
   grid-row: 1 / span 2;
-  margin:10%;
-
 }
 
 .speaker-img::before {
@@ -456,6 +454,10 @@ ul {
     justify-items: start;
     padding: 0 10%;
   }
+  .speaker {
+    gap: 0.3rem 1rem;
+  }
+
 
   .about-partners,
   .copyright {
@@ -476,7 +478,7 @@ ul {
   }
 
   .copyright-logo {
-    width: 25%;
+    width: 15%;
   }
 
   /* About page */
