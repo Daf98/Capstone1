@@ -15,18 +15,15 @@
   font-family: 'Lato', sans-serif;
 }
 
-.black,
-ul,
-a,
-a:link {
-  color: #272a31;
+.menu-item, .menu-item:link, .desk-hover, .desk-hover:link {
+  color:#272a31;
 }
 
 .cc-unit:link {
   color: #ec5242;
 }
 
-.up-links, .up-links:link {
+.up-links {
   color:white;
 }
 
@@ -57,6 +54,7 @@ ul {
 }
 
 .hamburger-menu {
+  color:#272a31;
   display: flex;
   justify-content: space-between;
   align-items: center;
