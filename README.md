@@ -44,7 +44,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration taken from CC Global Commit 2015 in Korea
+- Inspiration taken from [CC Global Commit 2015 in Korea](http://summit.cckorea.org/main.html)
 - Shout-out to [Zeeshan](https://github.com/zhadier) and [Firdavs](https://github.com/fed1k) for helping me with this project
 
 ## 📝 License
