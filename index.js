@@ -32,70 +32,70 @@ menuItems.forEach(
   },
 );
 
-//Dynamic HTML
+// Dynamic HTML
 const speakers = [
   {
     name: 'Carl Jung',
-    description: "Swiss psychiatrist and psychoanalyst who founded analytical psychology",
+    description: 'Swiss psychiatrist and psychoanalyst who founded analytical psychology',
     image: './css/Featured/Jung.jpg',
-    detail:"Jung's 'Psychological Types' inspired Aushra to create Socionics",
+    detail: "Jung's 'Psychological Types' inspired Aushra to create Socionics",
     id: 'spkr1',
     class: 'one',
   },
   {
     name: 'Aushra Augusta',
-    description: "Lithuanian economist who founded Socionics",
+    description: 'Lithuanian economist who founded Socionics',
     image: './css/Featured/Aushra.jpg',
-    detail:"Established Model A in the 1960s and 1970s in Vilnius, Lithuania",
+    detail: 'Established Model A in the 1960s and 1970s in Vilnius, Lithuania',
     id: 'spkr2',
     class: 'two',
   },
   {
     name: 'Viktor Gulenko',
-    description: "Ukrainian founder of the School of Humanitarian Socionics",
+    description: 'Ukrainian founder of the School of Humanitarian Socionics',
     image: './css/Featured/Gulenko.png',
-    detail:"Psychologist and socionist who created Model G",
+    detail: 'Psychologist and socionist who created Model G',
     id: 'spkr3',
     class: 'three',
   },
   {
     name: 'Vera Stratiyevskaya',
-    description: "Russian author of popular type and intertype relationship descriptions",
+    description: 'Russian author of popular type and intertype relationship descriptions',
     image: './css/Featured/Stratiyevskaya.jpg',
-    detail:"Known for producing some of the most lifelike descriptions of socionic types",
+    detail: 'Known for producing some of the most lifelike descriptions of socionic types',
     id: 'spkr4',
     class: 'four',
   },
   {
     name: 'Grigoriy Reinin',
-    description: "Russian creator of the Reinin dichotomies.",
+    description: 'Russian creator of the Reinin dichotomies.',
     image: './css/Featured/Reinin.jpg',
-    detail:"One of the most prominent socionics theorists of St. Petersburg community",
+    detail: 'One of the most prominent socionics theorists of St. Petersburg community',
     id: 'spkr5',
     class: 'five',
   },
   {
     name: 'Ekaterina Filatova',
-    description: "Early Russian socionist from St. Petersburg, Russia",
+    description: 'Early Russian socionist from St. Petersburg, Russia',
     image: './css/Featured/Filatova.jpg',
-    detail:"Known for her collection of photographs of people of different sociotypes",
+    detail: 'Known for her collection of photographs of people of different sociotypes',
     id: 'spkr6',
     class: 'six',
-  }
+  },
 ];
 
-//Declare body
+// Declare body
 const body = document.querySelector('.main-container');
-//Create "speakers" div
+// Create "speakers" div
 const speakersDiv = document.createElement('div');
 speakersDiv.classList.add('speakers');
 
-//Declare "about-partners" section
+// Declare "about-partners" section
 const aboutPartners = document.querySelector('.about-partners');
-//Put "speakers" before Partners section
+// Put "speakers" before Partners section
 body.insertBefore(speakersDiv, aboutPartners);
 
-for(let i=0; i<speakers.length; i += 1) {
+for (let i = 0; i < speakers.length; i += 1) {
   const speaker = document.createElement('div');
   speaker.classList.add('speaker');
   speakersDiv.appendChild(speaker);

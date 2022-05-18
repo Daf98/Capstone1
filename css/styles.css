@@ -15,8 +15,11 @@
   font-family: 'Lato', sans-serif;
 }
 
-.menu-item, .menu-item:link, .desk-hover, .desk-hover:link {
-  color:#272a31;
+.menu-item,
+.menu-item:link,
+.desk-hover,
+.desk-hover:link {
+  color: #272a31;
 }
 
 .cc-unit:link {
@@ -24,7 +27,7 @@
 }
 
 .up-links {
-  color:white;
+  color: white;
 }
 
 .red {
@@ -54,7 +57,7 @@ ul {
 }
 
 .hamburger-menu {
-  color:#272a31;
+  color: #272a31;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,9 +105,9 @@ ul {
 
 .first-heading {
   background: url('./Font/h1-background.jpg');
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-  font-family: 'Cocogoose';
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Cocogoose', sans-serif;
   font-weight: 900;
   font-size: 40px;
   mix-blend-mode: multiply;
@@ -189,7 +192,6 @@ ul {
   display: none;
 }
 
-
 /* About page */
 
 .about-header {
@@ -199,7 +201,7 @@ ul {
   background-image: url('./Images/About1.png');
   gap: 2rem;
   padding: 5% 10%;
-  text-align:center;
+  text-align: center;
 }
 
 .about-socio-bigger {
@@ -222,7 +224,6 @@ ul {
   align-items: center;
 }
 
-
 .about-logo {
   display: flex;
   flex-direction: column;
@@ -230,7 +231,7 @@ ul {
   background: rgb(255, 250, 250);
   gap: 2rem;
   padding: 2rem;
-  text-align:center;
+  text-align: center;
 }
 
 .past-bootcamps {
@@ -239,7 +240,7 @@ ul {
   align-items: center;
   padding: 2rem;
   gap: 1rem;
-  text-align:center;
+  text-align: center;
 }
 
 .desktop-about {
@@ -267,7 +268,6 @@ ul {
 
 .about-partners {
   background-color: #272a31;
-  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
@@ -281,7 +281,6 @@ ul {
 }
 
 .copyright {
-  display: flex;
   padding: 2rem;
   align-items: center;
   justify-content: center;
@@ -319,19 +318,19 @@ ul {
 
 .speaker-img {
   margin: 10px;
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   grid-column: 1/2;
   grid-row: 1 / span 2;
 }
 
 .speaker-bg {
-  position:relative;
-    height:100px;
-    width:100px;
-    grid-column: 1/2;
-    grid-row: 1 / span 2;
-    margin:10px;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  grid-column: 1/2;
+  grid-row: 1 / span 2;
+  margin: 10px;
 }
 
 .speaker-bg::before {
@@ -344,7 +343,6 @@ ul {
   left: 0;
   background: url(./Images/SpeakerBackground.png);
 }
-
 
 .speaker-name {
   grid-column: 2/span 1;
@@ -371,7 +369,6 @@ ul {
 /* Desktop version */
 
 @media only screen and (min-width: 768px) {
-
   /* Nav bar */
   .desktop-bar {
     display: flex;
@@ -414,7 +411,7 @@ ul {
   .header {
     align-items: flex-start;
     background-image: url('./Images/Desktop1.png');
-    padding:5% 15%;
+    padding: 5% 15%;
   }
 
   .first-par {
@@ -429,18 +426,16 @@ ul {
   .cards0 {
     padding: 2rem;
     gap: 3rem;
-    
   }
-  
+
   .card {
-    flex-direction:column;
-    flex-basis:250px;
+    flex-direction: column;
+    flex-basis: 250px;
   }
 
   .cards {
     flex-direction: row;
-    
-    text-align:center;
+    text-align: center;
   }
 
   .project-button {
@@ -464,7 +459,6 @@ ul {
   .speaker {
     gap: 0.3rem 1rem;
   }
-
 
   .about-partners,
   .copyright {
