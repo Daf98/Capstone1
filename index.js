@@ -101,7 +101,9 @@ for(let i=0; i<speakers.length; i += 1) {
   speakersDiv.appendChild(speaker);
 
   speaker.innerHTML = `
-  <img class="speaker-img" src="${speakers[i].image}" alt="Viktor Gulenko">
+  <div class="speaker-bg">
+    <img class="speaker-img" src="${speakers[i].image}" alt="Viktor Gulenko">
+  </div>
   <h2 class="speaker-name">${speakers[i].name}</h2>
   <p class="speaker-desc red">${speakers[i].description}</p>
   <h5 class="speaker-detail">${speakers[i].detail}</h5>
