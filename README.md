@@ -26,7 +26,8 @@
 - Then open index.html in a live server.
 
 ## Online version
-[Live-Demo](https://daf98.github.io/Capstone1/)
+[Live Demo](https://daf98.github.io/Capstone1/)
+[Video Demo](https://www.loom.com/share/e4ac16178be64af1911ac2b9c7de2b14)
 
 ## Authors
 
