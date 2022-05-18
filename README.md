@@ -6,7 +6,7 @@
 
 # Project Description
 
-> An invitation to a convention to learn about and discuss Socionics :smile:
+> This project is about a convention where people interested in Socionics can learn about it, see real-life scenarios and examples, and meet people. Maybe you'll even meet your dual! :smile:
 
 ## Built With
 
