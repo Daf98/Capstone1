@@ -26,6 +26,10 @@ a:link {
   color: #ec5242;
 }
 
+.up-links {
+  color:white;
+}
+
 .red {
   color: #ec5242;
 }
@@ -304,14 +308,14 @@ ul {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
-  align-items: center;
   justify-content: center;
   padding: 1rem;
   gap: 1rem;
 }
 
 .speaker-img {
-  height: 150px;
+  height:100px;
+  width:100px;
   grid-column: 1/2;
   grid-row: 1 / span 2;
 }
@@ -381,7 +385,6 @@ ul {
 
   /* Homepage */
   .header {
-    height: 700px;
     align-items: flex-start;
     background-image: url('./Images/Desktop1.png');
     gap: 3rem;
@@ -419,6 +422,7 @@ ul {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
+    justify-items: start;
   }
 
   .about-partners,
@@ -462,5 +466,5 @@ ul {
     color: white;
     gap: 3rem;
   }
-
+}
 }
