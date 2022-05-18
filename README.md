@@ -44,6 +44,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Original design idea by [Cindy Shin](https://www.behance.net/adagio07)
 - Hat tip to anyone whose code was used
 - Inspiration taken from [CC Global Commit 2015 in Korea](http://summit.cckorea.org/main.html)
 - Shout-out to [Zeeshan](https://github.com/zhadier) and [Firdavs](https://github.com/fed1k) for helping me with this project
