@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Socionics Convention
+![](https://user-images.githubusercontent.com/82343891/174390355-68913051-6801-41bb-80b4-d39197826908.png)
 
 > This project is about a convention where people interested in Socionics can learn about it, see real-life scenarios and examples, and meet people. Maybe you'll even meet your dual! :smile:
 
